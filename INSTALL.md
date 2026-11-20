@@ -1,8 +1,26 @@
 # Install saTV on your TV
 
-You need an **Android TV or Google TV running Android 9 or newer**, a computer, and the saTV `.apk` file.
-Put the TV and computer on the same home network. ADB is Google's small tool for sending the APK from your
-computer to the TV. For a first try, all you need to do is install the APK and open saTV from your TV's apps.
+You need an **Android TV or Google TV running Android 9 or newer**, an Android phone or computer, and the
+saTV `.apk` file. Put both devices on the same home network. ADB is Android's tool for sending the APK to
+the TV. For a first try, install the APK and open saTV from your TV's apps.
+
+[Install from an Android phone](#install-from-an-android-phone) · [Install from a computer](#1-get-the-two-downloads)
+
+## Install from an Android phone
+
+1. Download the saTV `.apk` from [saTV Releases](https://github.com/kcmaker10/satv/releases) to your phone.
+   Install [Tellyscope](https://github.com/man15h/tellyscope#readme) on the phone.
+2. On your TV, enable [Developer options and network debugging](#2-connect-to-the-tv). In Tellyscope,
+   choose **Add your TV**, select your TV, and follow the pairing prompt. If discovery misses your TV,
+   use **Add by IP address** with the address and port shown by your TV. Approve the matching key on the TV,
+   or enter the pairing code if prompted.
+3. On Tellyscope's **Overview** screen, tap **Install app**. Pick the saTV APK from **Downloads**, check
+   that the confirmation says **saTV**, and tap **Install**.
+4. Open saTV on the TV. To have the remote's Home button open it, follow
+   [the Home button helper steps](#4-turn-on-the-features-you-want). Tellyscope's **Install app** tool is all
+   you need for this route.
+
+If your TV's debugging connection can't pair with the phone, try the computer steps below.
 
 ## 1. Get the two downloads
 

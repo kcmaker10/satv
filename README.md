@@ -108,13 +108,9 @@ If DNS blocking interferes with an app, hold **OK** on its tile and choose **Pau
 
 ## Install
 
-saTV runs on **Android TV and Google TV with Android 9 or newer**. The first public APK is in preparation. When it's available, you'll find it under [Releases](https://github.com/kcmaker10/satv/releases).
+saTV runs on **Android TV and Google TV with Android 9 or newer**. Install the APK from an [Android phone](INSTALL.md#install-from-an-android-phone) or a [computer](INSTALL.md#1-get-the-two-downloads). The first public APK is in preparation. When it's available, you'll find it under [Releases](https://github.com/kcmaker10/satv/releases).
 
-1. Download the signed APK and Google's Platform-Tools to a Windows, Mac, or Linux computer.
-2. Connect your computer to the TV and install the APK with ADB.
-3. Open saTV from your TV's apps. If you want the remote's **Home** button to open saTV, enable the Home button helper.
-
-The [install guide](INSTALL.md) has exact commands, TV menu screenshots, troubleshooting, and the steps to restore your original Home.
+The [install guide](INSTALL.md) walks through both routes, the optional Home button helper, and the steps to restore your original Home.
 If you want an AI agent to help, give it the [agent install guide](AGENT_INSTALL.md).
 
 ## Permissions and privacy
