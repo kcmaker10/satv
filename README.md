@@ -4,23 +4,15 @@
 
 Pick up your next episode from a cinematic **Continue Watching** row with full-screen show artwork. Keep your favourite apps in a glass dock with animated folders, and give everyone their own profile and theme. When the TV goes idle, turn it into a parallax photo gallery or put your music on the big screen with **synced lyrics and seven audio-reactive visualizers**.
 
-**Free to use. No analytics. No saTV account. Local watch history stays on your TV.**
+**Every saTV feature is free. No paid tiers or feature unlocks.**
 
-[**Install guide**](INSTALL.md) · [Screenshots](#screenshots) · [Feature guide](#feature-guide) · [Permissions and privacy](#permissions-and-privacy)
+No analytics or saTV account. Local watch history stays on your TV.
+
+[Screenshots](#screenshots) · [Feature guide](#feature-guide) · [Install](#install) · [Permissions and privacy](#permissions-and-privacy)
 
 ![saTV in Dracula with full-screen Andor artwork, Continue Watching, and a glass dock with Nuvio, Netflix, Prime Video, HBO Max and YouTube](screenshots/08-continue-watching.jpg)
 
 *Captured in the Dracula theme on an Android TV demo setup.*
-
-## Install
-
-saTV runs on **Android TV and Google TV with Android 9 or newer**. The first public APK is in preparation. When it's available, you'll find it under [Releases](https://github.com/kcmaker10/satv/releases).
-
-1. Download the signed APK and Google's Platform-Tools to a Windows, Mac, or Linux computer.
-2. Connect your computer to the TV and install the APK with ADB.
-3. Open saTV from your TV's apps. If you want the remote's **Home** button to open saTV, enable the Home button helper.
-
-The [install guide](INSTALL.md) has exact commands, TV menu screenshots, troubleshooting, and the steps to restore your original Home.
 
 ## Screenshots
 
@@ -106,15 +98,23 @@ The gear puts Wi-Fi, Bluetooth, Ambient, and optional system-wide DNS blocking w
 
 ## Feature guide
 
-| What you can do | Where to find it |
-| --- | --- |
-| **Pin and rearrange apps** | From the dock, press **Down** for All Apps. Hold **OK** on an app to pin it, move it, add it to a folder, or hide it for this profile. Restore hidden apps in **Settings → Hidden apps**. |
-| **Customize Home** | **Settings → Appearance** has ten themes, fonts, app icons or wide banners, dock sizing, seasonal touches, and a wake-up intro. Supported TVs on Android 13 and newer can use Liquid glass. Frosted glass is available on older TVs. |
-| **Switch profiles** | Use the round profile button at the top left. Profiles can have separate homes, themes, settings, Trakt sign-ins, and local watch history, with an optional PIN. |
-| **Pick a Continue Watching source** | **Settings → Continue watching** lets you use Trakt, local history, or both. Local history depends on what the player reports to Android. For backdrops and title logos, add your own TMDB key under **Artwork**. |
-| **Set up Ambient** | Start it from the gear or open **Settings → Appearance → Ambient** for parallax or slow zoom, lyrics, and Aura. Public builds use photos or watch artwork for wallpaper and photo Ambient. |
-| **Choose interface sounds or back up a profile** | **Settings → General** includes interface sounds, start-up options, and manual or scheduled backups. Backups cover profiles and settings. |
-| **Pause DNS blocking for an app** | With DNS blocking set up, hold **OK** on an app and choose **Pause ad blocking in this app**. You can also pause it from **Settings → Ad blocking**. |
+- **Make your next episode the centrepiece.** Browse full-screen backdrops, title logos, progress, and time remaining right from Home. Use Trakt, local playback history from supported apps, or both. Trakt can open an episode in Nuvio. Add your own TMDB key under **Continue watching → Artwork**.
+- **Put your favourite apps one press away.** Keep them in a glass dock with app icons or wide banners. Press **Down** to open All Apps and hold **OK** to pin, reorder, group, or hide apps. Restore hidden apps from **Settings → Hidden apps**.
+- **Give everyone their own Home.** Switch profiles from the top-left button. Each profile can have its own dock, folders, hidden apps, wallpaper, theme, Trakt account, and local watch history. Add an optional PIN.
+- **Make the idle screen worth looking at.** Rotate photos from Wikimedia Commons or NASA with parallax or slow zoom. Eight built-in photos keep rotating offline. When music is playing, Ambient can show synced lyrics or seven Aura visualizers. Use the Now Playing chip to control supported players from Home.
+- **Tune the look and feel.** Pick from ten themes, change the font and dock size, and choose an interface sound or wake-up intro. Liquid glass adds depth on supported Android 13+ TVs. Frosted glass works on older TVs.
+- **Keep the controls you use close by.** Open Wi-Fi, Bluetooth, and Ambient from the gear. Optional DNS blocking supports a timed pause or a per-app exception. A connected NextDNS account can show blocked queries, top trackers, and a weekly chart.
+- **Save your setup.** Find manual and scheduled backups under **Settings → General** to save your profiles and launcher settings.
+
+## Install
+
+saTV runs on **Android TV and Google TV with Android 9 or newer**. The first public APK is in preparation. When it's available, you'll find it under [Releases](https://github.com/kcmaker10/satv/releases).
+
+1. Download the signed APK and Google's Platform-Tools to a Windows, Mac, or Linux computer.
+2. Connect your computer to the TV and install the APK with ADB.
+3. Open saTV from your TV's apps. If you want the remote's **Home** button to open saTV, enable the Home button helper.
+
+The [install guide](INSTALL.md) has exact commands, TV menu screenshots, troubleshooting, and the steps to restore your original Home.
 
 ## Permissions and privacy
 
