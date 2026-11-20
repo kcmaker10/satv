@@ -24,14 +24,11 @@ Move across the row to change the full-screen backdrop, title logo, and episode 
 | --- | --- |
 | ![Arcane artwork and title logo above the Trakt row](screenshots/09-watch-artwork.jpg) | ![Sample local history from Prime Video, HBO Max, and Netflix](screenshots/18-local-continue-watching.jpg) |
 
-<details>
-<summary>Episode details and source settings</summary>
+#### Episode details and source settings
 
 | **Episode progress** | **Separate source switches** |
 | --- | --- |
 | ![Severance selected with full-screen artwork and time remaining](screenshots/10-artwork-focus.jpg) | ![Settings with Trakt off and Watched on this TV on](screenshots/19-watch-sources.jpg) |
-
-</details>
 
 ### Home, apps, and profiles
 
@@ -41,14 +38,11 @@ Press **Down** from the glass dock to open All Apps. Pin your favourites, group 
 | --- | --- |
 | ![All Apps with Nuvio in focus beside HBO Max, Netflix, Prime Video, and YouTube](screenshots/04-all-apps.png) | ![A Media folder opening from the dock with Nuvio, YouTube, and YouTube Music](screenshots/06-folders.png) |
 
-<details>
-<summary>Profiles and appearance settings</summary>
+#### Profiles and appearance settings
 
 | **Profile switcher** | **Theme, glass, and fonts** |
 | --- | --- |
 | ![The profile switcher showing two profiles](screenshots/07-profiles.png) | ![Appearance settings for themes, glass, and fonts](screenshots/03-appearance.png) |
-
-</details>
 
 ### Now Playing and synced lyrics
 
@@ -58,12 +52,9 @@ See the current track in the **Now Playing** chip on Home. Press **OK** for albu
 | --- | --- |
 | ![The Now Playing chip beside the saTV logo with track artwork and a waveform](screenshots/11-music-chip.jpg) | ![Album art and timed lyrics with the current words highlighted](screenshots/13-synced-lyrics.jpg) |
 
-<details>
-<summary>Expanded playback controls</summary>
+#### Expanded playback controls
 
 ![The Now Playing panel showing album art, playback progress, and play, pause, and skip controls](screenshots/12-music-controls.jpg)
-
-</details>
 
 ### Aura music visualizer
 
@@ -73,12 +64,9 @@ Choose from seven audio-reactive looks: **Ribbons**, **Silk**, **Retro TV**, **N
 | --- | --- |
 | ![Aura Retro TV with a neon sunset and grid on a curved screen](screenshots/16-aura-retro.jpg) | ![Aura Ribbons flowing behind the live track display](screenshots/14-aura-ribbons.jpg) |
 
-<details>
-<summary>Waterfall visualizer</summary>
+#### Waterfall visualizer
 
 ![Aura Waterfall with a forest waterfall and audio-reactive lights](screenshots/17-aura-waterfall.jpg)
-
-</details>
 
 ### Wallpapers and photo Ambient
 
