@@ -30,13 +30,19 @@ Move across the row to change the full-screen backdrop, title logo, and episode 
 | --- | --- |
 | ![Severance selected with full-screen artwork and time remaining](screenshots/10-artwork-focus.jpg) | ![Settings with Trakt off and Watched on this TV on](screenshots/19-watch-sources.jpg) |
 
-### Home, apps, and profiles
+### Home, apps, and PIN-locked profiles
 
-Press **Down** from the glass dock to open All Apps. Pin your favourites, group apps in animated folders, and hide apps per profile. Each profile can have its own dock, settings, and look.
+Press **Down** from the glass dock to open All Apps. Pin your favourites, group apps in animated folders, and hide apps per profile.
+
+**Give everyone their own Home on one TV.** Each profile can connect its own Trakt account, choose its own Continue Watching sources, and keep its own local watch history. Everyone can arrange their apps and folders, pick a wallpaper and theme, and protect their profile with an optional four-digit PIN.
 
 | **All Apps** | **Animated folders** |
 | --- | --- |
 | ![All Apps with Nuvio in focus beside HBO Max, Netflix, Prime Video, and YouTube](screenshots/04-all-apps.png) | ![A Media folder opening from the dock with Nuvio, YouTube, and YouTube Music](screenshots/06-folders.png) |
+
+| **PIN-locked profile** | **Enter PIN to switch** |
+| --- | --- |
+| ![The Dracula profile switcher with Movie Night highlighted and marked Locked](screenshots/20-profile-lock.png) | ![The four-digit PIN prompt when opening the locked Movie Night profile](screenshots/21-profile-pin.png) |
 
 #### Profiles and appearance settings
 
@@ -84,14 +90,20 @@ The gear puts Wi-Fi, Bluetooth, Ambient, and optional system-wide DNS blocking w
 | --- | --- |
 | ![Quick settings with Wi-Fi, Bluetooth, ad blocking, and Ambient tiles](screenshots/02-settings.png) | ![Expanded NextDNS panel with blocked-query statistics and a weekly chart](screenshots/15-nextdns.jpg) |
 
+#### Pause blocking for apps that need it
+
+If DNS blocking interferes with an app, hold **OK** on its tile and choose **Pause ad blocking in this app**. With the Home button helper enabled, saTV pauses blocking while that app is on screen and resumes it when you leave.
+
+![An app menu with Pause ad blocking in this app highlighted](screenshots/22-dns-app-exception.png)
+
 ## Feature guide
 
 - **Make your next episode the centrepiece.** Browse full-screen backdrops, title logos, progress, and time remaining right from Home. Use Trakt, local playback history from supported apps, or both. Trakt can open an episode in Nuvio. Add your own TMDB key under **Continue watching → Artwork**.
 - **Put your favourite apps one press away.** Keep them in a glass dock with app icons or wide banners. Press **Down** to open All Apps and hold **OK** to pin, reorder, group, or hide apps. Restore hidden apps from **Settings → Hidden apps**.
-- **Give everyone their own Home.** Switch profiles from the top-left button. Each profile can have its own dock, folders, hidden apps, wallpaper, theme, Trakt account, and local watch history. Add an optional PIN.
+- **Set up a shared TV for everyone.** Select the profile circle to switch. Hold **OK** on a profile to rename it or add a PIN. Set which profile opens at startup in the same menu.
 - **Make the idle screen worth looking at.** Rotate photos from Wikimedia Commons or NASA with parallax or slow zoom. Eight built-in photos keep rotating offline. When music is playing, Ambient can show synced lyrics or seven Aura visualizers. Use the Now Playing chip to control supported players from Home.
 - **Tune the look and feel.** Pick from ten themes, change the font and dock size, and choose an interface sound or wake-up intro. Liquid glass adds depth on supported Android 13+ TVs. Frosted glass works on older TVs.
-- **Keep the controls you use close by.** Open Wi-Fi, Bluetooth, and Ambient from the gear. Optional DNS blocking supports a timed pause or a per-app exception. A connected NextDNS account can show blocked queries, top trackers, and a weekly chart.
+- **Pause DNS blocking when an app needs it.** Set an exception from the app's hold-OK menu, or pause blocking on a timer from the gear. The Home button helper makes per-app pauses automatic.
 - **Save your setup.** Find manual and scheduled backups under **Settings → General** to save your profiles and launcher settings.
 
 ## Install
@@ -103,6 +115,7 @@ saTV runs on **Android TV and Google TV with Android 9 or newer**. The first pub
 3. Open saTV from your TV's apps. If you want the remote's **Home** button to open saTV, enable the Home button helper.
 
 The [install guide](INSTALL.md) has exact commands, TV menu screenshots, troubleshooting, and the steps to restore your original Home.
+If you want an AI agent to help, give it the [agent install guide](AGENT_INSTALL.md).
 
 ## Permissions and privacy
 
