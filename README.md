@@ -1,14 +1,20 @@
-# saTV
+<h1 align="center">
+  <img src="assets/satv-wordmark.png" width="340" alt="saTV">
+</h1>
 
-**An ad-free, privacy-focused launcher for Android TV and Google TV.**
+<p align="center"><strong>A free, ad-free home screen for Android TV and Google TV.</strong></p>
 
-Pick up your next episode from a cinematic **Continue Watching** row with full-screen show artwork. Keep your favourite apps in a glass dock with animated folders, and give everyone their own profile and theme. When the TV goes idle, turn it into a parallax photo gallery or put your music on the big screen with **synced lyrics and seven audio-reactive visualizers**.
+<p align="center">
+  <a href="https://github.com/kcmaker10/satv/releases/latest"><strong>Get saTV</strong></a> ·
+  <a href="#screenshots">Screenshots</a> ·
+  <a href="#feature-guide">Features</a> ·
+  <a href="#install">Install guide</a> ·
+  <a href="#permissions-and-privacy">Privacy</a>
+</p>
 
-**Every saTV feature is free. No paid tiers or feature unlocks.**
+Resume your next episode from Home with full-screen artwork and progress. Keep your favourite apps in an animated glass dock, give each person their own PIN-locked profile, and turn the idle screen into a parallax photo gallery or a music display with synced lyrics and seven visualizers.
 
-No analytics or saTV account. Local watch history stays on your TV.
-
-[Screenshots](#screenshots) · [Feature guide](#feature-guide) · [Install](#install) · [Permissions and privacy](#permissions-and-privacy)
+**Every feature is free.** saTV has no launcher ads, analytics, paid unlocks, or saTV account. Local playback history stays on your TV.
 
 ![saTV in Dracula with full-screen Andor artwork, Continue Watching, and a glass dock with Nuvio, Netflix, Prime Video, HBO Max and YouTube](screenshots/08-continue-watching.jpg)
 
@@ -109,10 +115,15 @@ If DNS blocking interferes with an app, hold **OK** on its tile and choose **Pau
 
 ## Install
 
-saTV runs on **Android TV and Google TV with Android 9 or newer**. Install the APK from an [Android phone](INSTALL.md#install-from-an-android-phone) or a [computer](INSTALL.md#1-get-the-two-downloads). Get the signed APK and corresponding GPLv3 source under [Releases](https://github.com/kcmaker10/satv/releases).
+saTV runs on **Android TV and Google TV with Android 9 or newer**. Get the signed APK, checksums, and matching GPLv3 source from [GitHub Releases](https://github.com/kcmaker10/satv/releases/latest).
 
-The [install guide](INSTALL.md) walks through both routes, the optional Home button helper, and the steps to restore your original Home.
-If you want an AI agent to help, give it the [agent install guide](AGENT_INSTALL.md).
+| Install with | What you need |
+| --- | --- |
+| [Android phone](INSTALL.md#install-from-an-android-phone) | Tellyscope on your phone and network debugging on the TV |
+| [Computer](INSTALL.md#1-get-the-two-downloads) | Google's Android Platform-Tools and an ADB connection to the TV |
+| [AI agent](AGENT_INSTALL.md) | The agent guide and the same computer setup |
+
+Once installed, open **saTV** from your TV's app list. To use it as your Home screen, enable the [optional Home button helper](INSTALL.md#4-turn-on-the-features-you-want). The guide also covers [returning to your original Home](INSTALL.md#go-back-to-your-original-home).
 
 ## Permissions and privacy
 
