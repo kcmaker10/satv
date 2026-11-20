@@ -1,7 +1,10 @@
 # saTV
 
-**A free home screen for Android TV and Google TV.**
-Pick up a show from Continue Watching, give everyone their own dock, and fill the screen with photos, synced lyrics, or a visualizer when the TV goes idle.
+**An ad-free, privacy-focused launcher for Android TV and Google TV.**
+
+Pick up your next episode from a cinematic **Continue Watching** row with full-screen show artwork. Keep your favourite apps in a glass dock with animated folders, and give everyone their own profile and theme. When the TV goes idle, turn it into a parallax photo gallery or put your music on the big screen with **synced lyrics and seven audio-reactive visualizers**.
+
+**Free to use. No analytics. No saTV account. Local watch history stays on your TV.**
 
 [**Install guide**](INSTALL.md) · [Screenshots](#screenshots) · [Feature guide](#feature-guide) · [Permissions and privacy](#permissions-and-privacy)
 
