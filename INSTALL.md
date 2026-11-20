@@ -110,6 +110,28 @@ In the TV's Accessibility settings, select **saTV home button**, turn on **Enabl
 After setup, you can turn off debugging in **Developer options**. Repeat the connection step when you want
 to install an update.
 
+## Optional DNS controls
+
+This changes Android's Private DNS for the whole TV. Before enabling it, record your current Private DNS mode and provider in Android settings. Connect to the TV using the computer steps above. Replace TV_SERIAL with your TV's identifier from `adb devices`.
+
+```powershell
+./adb.exe -s TV_SERIAL shell pm grant dev.satv.launcher android.permission.WRITE_SECURE_SETTINGS
+```
+
+Reopen saTV and select **Settings → Ad blocking**. Choose a blocking service and enable it. For NextDNS, enter your own profile ID on the TV. The API key is optional and enables the stats panel. For an app that needs an exception, hold **OK** on its tile and choose **Pause ad blocking in this app**. The Home button helper must be enabled to apply exceptions automatically.
+
+To undo it, turn off saTV Ad blocking and restore your previous Private DNS setting. You can then remove the optional grant.
+
+```powershell
+./adb.exe -s TV_SERIAL shell pm revoke dev.satv.launcher android.permission.WRITE_SECURE_SETTINGS
+```
+
+## Set up Continue Watching
+
+Open **saTV Settings → Continue watching → Tracker** and pick **Trakt**, **Simkl**, **MDBList**, **WeTrakr**, or **Off**. Create an app in the provider's developer settings, then enter its **Client ID** on your TV and follow the sign-in code. saTV tells you where to find the developer settings. Configure each saTV profile separately. For Nuvio playback, install Nuvio and set up progress syncing in your media player with the same tracker account.
+
+To show local playback independently, turn on **Watched on this TV** and allow notification access. Available entries depend on what your media apps report to Android. Add your own TMDB key under **Continue watching → Artwork** if you want backdrops and title logos.
+
 ## Go back to your original Home
 
 1. Open the TV's **Accessibility** settings and switch off **saTV home button**. If you also changed
