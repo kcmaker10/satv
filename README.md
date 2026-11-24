@@ -24,7 +24,7 @@ Resume your next episode from Home with full-screen artwork and progress. Keep y
 
 ### Continue Watching
 
-Move across the row to change the full-screen backdrop, title logo, and episode details. Choose **Trakt, Simkl, MDBList, or WeTrakr** for each profile. Tracker cards with matching IDs can open in Nuvio. **Watched on this TV** works on its own and reopens the app that reported playback.
+Move across the row to change the full-screen backdrop, title logo, and episode details. Choose **Trakt, Simkl, MDBList, WeTrakr, or Nuvio Sync** for each profile. Nuvio Sync shows progress from your linked Nuvio profile. Select a supported card to open the movie or episode in Nuvio. **Watched on this TV** works on its own and reopens the app that reported playback.
 
 | **Trakt and title artwork** | **Local history with Trakt off** |
 | --- | --- |
@@ -105,11 +105,12 @@ If DNS blocking interferes with an app, hold **OK** on its tile and choose **Pau
 ## Feature guide
 
 - **Make your next episode the centrepiece.** Browse full-screen backdrops, title logos, progress, and time remaining right from Home. Connect the tracker of your choice with your own Client ID and optionally show local playback history from supported apps. With Nuvio installed, supported tracker cards can open the matching movie or episode. Add your own TMDB key under **Continue watching → Artwork**.
-- **Put your favourite apps one press away.** Keep them in a glass dock with app icons or wide banners. Press **Down** to open All Apps and hold **OK** to pin, reorder, group, or hide apps. Restore hidden apps from **Settings → Hidden apps**.
+- **Put your favourite apps one press away.** Keep them in a glass dock with app icons or wide banners. Press **Down** to open All Apps and hold **OK** to pin, reorder, group, or hide apps. In **Settings → Hidden apps**, press **OK** to open an app or hold **OK** to unhide it.
 - **Set up a shared TV for everyone.** Select the profile circle to switch. Hold **OK** on a profile to rename it or add a PIN. Set which profile opens at startup in the same menu.
 - **Make the idle screen worth looking at.** Rotate photos from Wikimedia Commons or NASA with parallax or slow zoom. Eight built-in photos keep rotating offline. When music is playing, Ambient can show synced lyrics or seven Aura visualizers. Use the Now Playing chip to control supported players from Home.
 - **Tune the look and feel.** Pick from ten themes, change the font and dock size, and choose an interface sound or wake-up intro. Liquid glass adds depth on supported Android 13+ TVs. Frosted glass works on older TVs.
 - **Pause DNS blocking when an app needs it.** Set an exception from the app's hold-OK menu, or pause blocking on a timer from the gear. The Home button helper makes per-app pauses automatic.
+- **Switch TV inputs from Home.** Open **Settings → TV inputs & channels** for HDMI inputs your TV exposes and shortcuts to its input picker, Live TV, or channel setup where supported.
 - **Check for new releases.** Open **Settings → About & updates** for the GitHub link, a manual version check, and optional update alerts.
 - **Save your setup.** Find manual and scheduled backups under **Settings → General** to save your profiles and launcher settings.
 
@@ -145,6 +146,6 @@ saTV was developed with assistance from Claude and OpenAI Codex.
 
 saTV builds on trbrnt's Veil, licensed under the GNU GPL v3. [Veil on GitHub](https://github.com/trbrnt/Veil) · [GPL v3](https://spdx.org/licenses/GPL-3.0-only.html)
 
-- **Watch artwork and progress.** Artwork and logos use TMDB. Continue Watching supports Trakt, Simkl, MDBList, and WeTrakr. saTV is independently maintained. [TMDB](https://www.themoviedb.org) · [Trakt](https://trakt.tv)
+- **Watch artwork and progress.** Artwork and logos use TMDB. Continue Watching supports Trakt, Simkl, MDBList, WeTrakr, and Nuvio Sync. saTV is independently maintained. [TMDB](https://www.themoviedb.org) · [Trakt](https://trakt.tv)
 - **Photos, lyrics, and weather.** Wallpaper credits appear on the TV. Timed lyrics come from LRCLIB, and weather from Open-Meteo. [Wikimedia Commons](https://commons.wikimedia.org) · [NASA Image Library](https://images.nasa.gov) · [LRCLIB](https://lrclib.net) · [Open-Meteo](https://open-meteo.com)
 - **Theme and type.** The Dracula gallery uses the Dracula palette. saTV uses Manrope for the interface and Monoton for the wordmark. [Dracula](https://draculatheme.com) · [Manrope](https://github.com/sharanda/manrope) · [Monoton](https://fonts.google.com/specimen/Monoton)

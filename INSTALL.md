@@ -128,9 +128,17 @@ To undo it, turn off saTV Ad blocking and restore your previous Private DNS sett
 
 ## Set up Continue Watching
 
-Open **saTV Settings → Continue watching → Tracker** and pick **Trakt**, **Simkl**, **MDBList**, **WeTrakr**, or **Off**. Create an app in the provider's developer settings, then enter its **Client ID** on your TV and follow the sign-in code. saTV tells you where to find the developer settings. Configure each saTV profile separately. For Nuvio playback, install Nuvio and set up progress syncing in your media player with the same tracker account.
+Open **saTV Settings → Continue watching → Online source** and choose a source for the current saTV profile.
+
+- **Nuvio Sync:** Choose **Connect**, scan the QR code to approve the connection, then select an unlocked Nuvio profile. Install Nuvio on your TV to open titles from the row. Use the matching profile in the Nuvio app for the same resume position.
+- **Trakt, Simkl, MDBList, or WeTrakr:** Create an app in the provider's developer settings, enter its **Client ID** on your TV, and follow the sign-in code.
+- **Off:** Turn off the online source for that saTV profile.
 
 To show local playback independently, turn on **Watched on this TV** and allow notification access. Available entries depend on what your media apps report to Android. Add your own TMDB key under **Continue watching → Artwork** if you want backdrops and title logos.
+
+## Switch TV inputs or open Live TV
+
+Open **saTV Settings → TV inputs & channels**. Select a listed HDMI input or use **System input picker** when your device offers it. **Live TV** opens the TV's channel viewer, and **Channel setup** opens the TV's own setup screen. On a streaming box, use the connected television to switch its physical HDMI ports.
 
 ## Go back to your original Home
 
