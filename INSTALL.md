@@ -136,6 +136,12 @@ Open **saTV Settings → Continue watching → Online source** and choose a sour
 
 To show local playback independently, turn on **Watched on this TV** and allow notification access. Available entries depend on what your media apps report to Android. Add your own TMDB key under **Continue watching → Artwork** if you want backdrops and title logos.
 
+## Update from saTV
+
+Starting in **1.0.5**, open **Settings → About & updates → Check for updates** to download the latest public APK and open the TV's installer. If Android asks for permission the first time, allow installs from **saTV** and press **Back**. Then choose **Update** in Android's installer.
+
+The first upgrade from 1.0.4 or earlier uses the phone or computer steps above. Install over the official public copy to keep its data. In testing on Android 14 Google TV, the in-app update turned off the Home-button helper. Check **Settings → Accessibility** after updating if you use the helper. Availability depends on the TV's app-install and accessibility rules.
+
 ## Switch TV inputs or open Live TV
 
 Open **saTV Settings → TV inputs & channels**. Select a listed HDMI input or use **System input picker** when your device offers it. **Live TV** opens the TV's channel viewer, and **Channel setup** opens the TV's own setup screen. On a streaming box, use the connected television to switch its physical HDMI ports.

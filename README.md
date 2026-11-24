@@ -111,7 +111,7 @@ If DNS blocking interferes with an app, hold **OK** on its tile and choose **Pau
 - **Tune the look and feel.** Pick from ten themes, change the font and dock size, and choose an interface sound or wake-up intro. Liquid glass adds depth on supported Android 13+ TVs. Frosted glass works on older TVs.
 - **Pause DNS blocking when an app needs it.** Set an exception from the app's hold-OK menu, or pause blocking on a timer from the gear. The Home button helper makes per-app pauses automatic.
 - **Switch TV inputs from Home.** Open **Settings → TV inputs & channels** for HDMI inputs your TV exposes and shortcuts to its input picker, Live TV, or channel setup where supported.
-- **Check for new releases.** Open **Settings → About & updates** for the GitHub link, a manual version check, and optional update alerts.
+- **Update from saTV.** Go to **Settings → About & updates → Check for updates** to download a new version and open the Android installer. Optional update alerts are available on the same page.
 - **Save your setup.** Find manual and scheduled backups under **Settings → General** to save your profiles and launcher settings.
 
 ## Install
